@@ -16,22 +16,27 @@ A classic Snake game utilizing React, TypeScript, Node, and Vite. Written with C
 
 ### Prerequisites
 
-- Node.js (v16 or higher)
-- npm or yarn
+- a modern web browser
+- Node.js 
+- npm
 
 ### Installation
 
-1. Install dependencies:
-```bash
-npm install
-```
+1. Download the code
 
-2. Start the development server:
+#### Option 1 - immediate play:
+
+2. Open the standalone.html file in the dist folder to play the game immediately.
+
+#### Option 2 - further development:
+
+2. Open the project folder in an IDE of your choice.
+3. Make changes as you see fit.
+4. Start the Vite development server via:
 ```bash
 npm run dev
 ```
-
-3. Open your browser and navigate to `http://localhost:3000`
+5. Open your browser and navigate to `http://localhost:3000`
 
 ## How to Play
 
@@ -64,10 +69,11 @@ npm run preview
 
 ## Technologies Used
 
-- **React 18** - UI framework
-- **TypeScript** - Type safety
-- **Vite** - Fast build tool
-- **CSS3** - Styling and animations
+- **React** 
+- **TypeScript** 
+- **npm** 
+- **Vite** 
+- **CSS** 
 
 ## Project Structure
 
@@ -83,10 +89,6 @@ src/
 
 The game board is a 20x20 grid where:
 - The snake is represented by green blocks
-- The head is a brighter green with glow
-- The food is a red circle with pulse animation
+- The head has a glow effect
+- The food is a red circle 
 - The game updates every 100ms for smooth gameplay
-
-## License
-
-This project is open source and available under the MIT License.
